@@ -1,0 +1,43 @@
+body {
+background-image: url('fon-12.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    width: 100vw;
+    background-image: url(../images/fon-12.png);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  font-family: 'Poppins', sans-serif;
+  
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(29, 38, 98);
+}
+
+p {
+  color: rgb(8, 8, 110);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.names {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(15, 4, 132);
+}
+.contact { 
+  display: block;
+  color: rgb(33, 14, 244);
+  text-align: left;
+ 
+}
